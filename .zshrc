@@ -61,7 +61,7 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$PATH:/home/s1mon/.local/bin"
 
 export PATH="$PATH:/home/s1mon/.local/share/bob/v0.9.5/nvim-linux64/bin"
-export PATH="$PATH:/opt/polymc/bin"
+export PATH="$PATH:/opt/lc"
 
 . "$HOME/.cargo/env"
 
@@ -72,5 +72,6 @@ alias gd="git diff"
 alias gc="git diff --cached"
 alias ga="git add" 
 alias gl="git log"
-alias gt="git commit"
+alias gg="git commit"
+alias gw="git show"
 
